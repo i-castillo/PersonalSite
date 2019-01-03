@@ -1,0 +1,62 @@
+body {
+	background: MidnightBlue;
+	font-family: 'Raleway', sans-serif;
+}
+
+.maindiv {
+	border-radius: 20px;
+	padding: 40px;
+	margin: auto;
+	width: 500px;
+	margin:12% auto auto auto;
+	position: relative;
+	height: auto;
+	text-align: center;
+	background: LightBlue;
+}
+
+h2 {
+	font-family: 'Droid Serif', sans-serif;
+}
+h1 {
+	font-family: 'Droid Serif', sans-serif;
+}
+
+h5 {
+	font-family: 'Droid Serif', sans-serif;
+}
+
+.loader {
+		float: right;
+	 border: 6px solid #f3f3f3; /* Light grey */
+	 border-top: 6px solid #3498db; /* Blue */
+	 border-radius: 50%;
+	 margin-left: 5px;
+	 width: 5px;
+	 height: 5px;
+	 animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+button {
+	border:none;
+	color: Black;
+	background-color: inherit;
+}
+
+#new_quote{
+	float: right;
+	border: solid;
+	border-width: thin;
+	border-radius: 5px;
+
+
+}
+#twitter{
+	float: left;
+	border:none;
+
+}

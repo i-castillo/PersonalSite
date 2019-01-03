@@ -1,0 +1,86 @@
+body {
+  font-family:'Open Sans', sans-serif;
+  font-size:16px;
+  background-color: #f8f8f8;
+}
+
+a {
+  color: #006A96;
+}
+
+.small-font{
+  font-size:12px;
+}
+
+#about{
+  width: 50%;
+}
+
+.jumbotron {
+  align-items: center;
+  color: white;
+  background-color: #006A96;
+}
+
+.header{
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+  margin-bottom: 15px;
+  vertical-align: middle;
+}
+
+.midlayer {
+  align-items: baseline;
+}
+.midlayer2{
+  display: flex;
+  color: #006A96;
+}
+
+.thumbnail{
+  height: 150px;
+  width: 200px;
+}
+
+.jumbotron p{
+  font-size: 16px;
+}
+
+.navbar-default{
+	border: none;
+}
+.navbar-right{
+	margin-right: 15px;
+}
+
+.navbar-default .navbar-brand {
+  color: #006A96;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #00465F;
+}
+.navbar-default .navbar-text {
+  color: #006A96;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #006A96;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #00465F;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #006A96;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #00465F;
+}
+.navbar-default .navbar-link {
+  color: #00465F;
+}
+.navbar-default .navbar-link:hover {
+  color: #006A96;
+}
